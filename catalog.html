@@ -25,24 +25,54 @@
 </header>
 <main>
   <section>
+  <form action="https://echo.htmlacademy.ru" method="get">
+  <fieldset>
+  <legend>Сетка</legend>
   <ul>
-    <li>
-      <h3>Сетка</h3>
-      <p>Адаптивная </p>
-      <p>Фиксированная </p>
-      <p>Резиновая </p>
-    </li>
-    <li>
-<h3>Особенности</h3>
-<p>Слайдер</p>
-<p>Блок преимуществ</p>
-<p>Новости</p>
-<p>Галерея</p>
-<p>Корзина</p>
+  <li>
+<input type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
+<label for="filter-adaptive">Адаптивная</label>
+  </li>
+  <li>
+    <input type="radio" name="grid" value="fixed" id="filter-fixed">
+    <label for="filter-fixed">Фиксированная</label>
+  </li>
+<li>
+  <input type="radio" name="grid" value="rubber" id="filter-rubber">
+  <label for="filter-rubber">Резиновая</label>
 </li>
+</ul>
+</fieldset>
+<fieldset>
+<legend>Особенности</legend>
+<ul>
+<li>
+<input type="checkbox" name="slider" id="filter-slider" checked>
+<label for="filter-slider">Слайдер</label>
+</li>
+<li>
+<input type="checkbox" name="advantages" id="filter-advantages">
+<label for="filter-advantages">Преимущества</label>
+</li>
+<li>
+<input type="checkbox" name="news" id="filter-news" checked>
+<label for="filter-news">Новости</label>
+</li>
+<li>
+<input type="checkbox" name="galerius" id="filter-galerius">
+<label for="filter-galerius">Галерия</label>
+</li>
+<li>
+<input type="checkbox" name="basket" id="filter-basket">
+<label for="filter-basket">Корзина</label>
+</li>
+</ul>
+</fieldset>
+</form>
+</section>
+<ul>
 <li> <a href="#">показать</a></li>
 </ul>
-</section>
 <section>
 <figure>
 <ul>
@@ -82,11 +112,11 @@
       <p>Давайте дружить</p>
       <p> Скидка 10% для друзей из социальных сетей </p>
       <ul>
-        <li><a href="https://Vk.com">Вконтакте</a>
+        <li><a href="https://Vk.com" aria-label="Вконтакте">Вконтакте</a>
         </li>
-        <li><a href="https://facebook.com">Фейсбук</a>
+        <li><a href="https://facebook.com" aria-label="Фейсбук">Фейсбук</a>
         </li>
-        <li><a href="https://Instagram.com">Инстаграм</a>
+        <li><a href="https://Instagram.com" aria-label="Инстаграм">Инстаграм</a>
         </li>
       </ul>
       <article>
